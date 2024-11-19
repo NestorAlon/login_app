@@ -11,7 +11,6 @@ def index(request):
     }
     return render(request, 'blog/index.html', params)
 
-
 def create(request):
     if (request.method == 'POST'):
         title = request.POST['title']
